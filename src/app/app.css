@@ -1,0 +1,6 @@
+/* Estados activos de navegación (DaisyUI menu + routerLinkActive="active") */
+.menu li > a.active {
+  background-color: var(--color-primary);
+  color: var(--color-primary-content);
+  font-weight: 600;
+}

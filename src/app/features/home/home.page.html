@@ -1,0 +1,12 @@
+<section class="hero bg-base-200 rounded-box px-4 py-12 md:py-16">
+  <div class="hero-content max-w-3xl flex-col text-center md:text-left md:items-start">
+    <p class="text-primary font-semibold tracking-wide uppercase">{{ profile.role }}</p>
+    <h1 class="text-4xl font-bold md:text-5xl">{{ profile.name }}</h1>
+    <p class="text-base-content/90 max-w-2xl text-lg">{{ profile.headline }}</p>
+    <p class="text-base-content/70 max-w-2xl">{{ profile.about }}</p>
+    <div class="mt-4 flex flex-wrap justify-center gap-3 md:justify-start">
+      <a routerLink="/projects" class="btn btn-primary">Ver proyectos</a>
+      <a routerLink="/contact" class="btn btn-outline btn-primary">Contactarme</a>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,22 @@
+<section class="space-y-6">
+  <div>
+    <h1 class="text-3xl font-bold">Skills</h1>
+    <p class="text-base-content/60 mt-2">
+      Tecnologías y herramientas que uso para construir productos.
+    </p>
+  </div>
+  <div class="grid gap-5 md:grid-cols-3">
+    @for (group of skillGroups; track group.title) {
+      <article class="card bg-base-200 shadow-md">
+        <div class="card-body">
+          <h2 class="card-title text-lg">{{ group.title }}</h2>
+          <div class="mt-2 flex flex-wrap gap-2">
+            @for (item of group.items; track item) {
+              <app-skill-badge [label]="item" />
+            }
+          </div>
+        </div>
+      </article>
+    }
+  </div>
+</section>

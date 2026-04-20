@@ -1,0 +1,19 @@
+@if (variant() === 'outline') {
+  <a
+    [href]="href()"
+    [attr.target]="openInNewTab() ? '_blank' : null"
+    [attr.rel]="openInNewTab() ? 'noopener noreferrer' : null"
+    class="btn btn-outline btn-primary btn-sm md:btn-md"
+  >
+    {{ label() }}
+  </a>
+} @else {
+  <a
+    [href]="href()"
+    [attr.target]="openInNewTab() ? '_blank' : null"
+    [attr.rel]="openInNewTab() ? 'noopener noreferrer' : null"
+    class="btn btn-primary btn-sm md:btn-md"
+  >
+    {{ label() }}
+  </a>
+}
