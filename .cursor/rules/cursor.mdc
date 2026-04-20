@@ -1,4 +1,5 @@
 ---
+description: Angular Standalone Rules
 context: true
 priority: high
 scope: project

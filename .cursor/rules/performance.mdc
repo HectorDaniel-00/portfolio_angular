@@ -1,0 +1,9 @@
+---
+description: Performance Standards
+alwaysApply: false
+---
+- Use trackBy in all @for loops
+- Lazy load routes with loadComponent
+- Use defer for below-the-fold content
+- Unsubscribe using destroyRef or takeUntilDestroyed
+- Avoid any. Use strict types

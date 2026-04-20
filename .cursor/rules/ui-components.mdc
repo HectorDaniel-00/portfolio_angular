@@ -1,0 +1,11 @@
+---
+description: Rules for user interface components
+alwaysApply: false
+---
+- Use input() and output() from @angular/core
+- Add the “pf-” (portfolio) prefix to all selectors
+- Keep templates under 100 lines; extract subcomponents
+- Use TailwindCSS for styling
+- Use the DaisyUI library to customize components
+- Add interactivity to elements
+- Add animations to components
