@@ -14,21 +14,24 @@ export const projects: Project[] = [
     summary: 'Sitio para presentar experiencia, proyectos y contacto con foco en performance.',
     stack: ['Angular', 'TypeScript', 'Tailwind'],
     liveUrl: '#',
-    repositoryUrl: '#'
+    repositoryUrl: '#',
+    image: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=1200&auto=format&fit=crop'
   },
   {
     name: 'Dashboard de Ventas',
     summary: 'Panel con filtros, gráficos y exportación para seguimiento comercial.',
     stack: ['Angular', 'RxJS', 'Chart.js'],
     liveUrl: '#',
-    repositoryUrl: '#'
+    repositoryUrl: '#',
+    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1200&auto=format&fit=crop'
   },
   {
     name: 'Sistema de Reservas',
     summary: 'Aplicación para gestionar reservas con validaciones y calendario interactivo.',
     stack: ['Angular', 'Node.js', 'PostgreSQL'],
     liveUrl: '#',
-    repositoryUrl: '#'
+    repositoryUrl: '#',
+    image: 'https://images.unsplash.com/photo-1506784983877-45594efa4cbe?q=80&w=1200&auto=format&fit=crop'
   }
 ];
 

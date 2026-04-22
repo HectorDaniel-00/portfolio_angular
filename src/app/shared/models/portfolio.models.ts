@@ -2,6 +2,7 @@ export interface Project {
   name: string;
   summary: string;
   stack: string[];
+  image: string
   liveUrl: string;
   repositoryUrl: string;
 }
