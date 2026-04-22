@@ -1,9 +1,11 @@
-import { Component, input } from '@angular/core';
+import { ChangeDetectionStrategy, Component, input } from '@angular/core';
 
 @Component({
   selector: 'app-cta-button',
   standalone: true,
-  templateUrl: './cta-button.component.html'
+  templateUrl: './cta-button.component.html',
+  changeDetection: ChangeDetectionStrategy.OnPush,
+
 })
 export class CtaButtonComponent {
   readonly label = input.required<string>();
