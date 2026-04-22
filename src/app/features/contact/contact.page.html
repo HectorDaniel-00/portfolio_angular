@@ -1,0 +1,18 @@
+<section class="max-w-2xl space-y-4">
+  <div>
+    <h1 class="text-3xl font-bold">Contacto</h1>
+    <p class="text-base-content/60 mt-2">
+      Si quieres colaborar en un proyecto, escríbeme por cualquiera de estos canales.
+    </p>
+  </div>
+  <ul class="flex flex-col gap-2">
+    @for (link of socialLinks; track link.label) {
+      <li>
+        <a [href]="link.url" class="btn btn-outline btn-block justify-between">
+          <span>{{ link.label }}</span>
+          <span aria-hidden="true">→</span>
+        </a>
+      </li>
+    }
+  </ul>
+</section>
