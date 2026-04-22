@@ -3,9 +3,9 @@ import { Project, SkillGroup, SocialLink } from '../models/portfolio.models';
 export const profile = {
   name: 'Hector Vargas',
   role: 'Full-Stack Developer',
-  headline: 'Construyo interfaces modernas enfocadas en rendimiento y experiencia de usuario.',
+  headline: 'Desarrollo aplicaciones fullstack con NestJS y Angular v21, creando interfaces rápidas y automatizando.',
   about:
-    'Me especializo en Angular, TypeScript y arquitectura frontend escalable. Disfruto convertir ideas en productos que resuelven problemas reales.'
+    'Me especializo en el desarrollo fullstack con Angular v21, TypeScript y NestJS. Disfruto convertir ideas en productos escalables que resuelven problemas reales, combinando interfaces modernas con automatización de procesos.'
 };
 
 export const projects: Project[] = [
@@ -35,17 +35,58 @@ export const projects: Project[] = [
 export const skillGroups: SkillGroup[] = [
   {
     title: 'Frontend',
-    items: ['Angular', 'TypeScript', 'JavaScript', 'HTML', 'CSS', 'Tailwind']
+    items: [
+      'Angular v21 (Standalone + Signals)',
+      'TypeScript',
+      'JavaScript (ES6+)',
+      'HTML5',
+      'CSS3',
+      'Tailwind'
+    ]
   },
   {
     title: 'Backend',
-    items: ['Node.js', 'Express', 'REST APIs']
+    items: [
+      'Node.js',
+      'NestJS',
+      'Express',
+      'REST APIs',
+      'Swagger'
+    ]
   },
   {
-    title: 'Herramientas',
-    items: ['Git', 'GitHub', 'Vite', 'Figma', 'Postman']
+    title: 'Automatización & Data',
+    items: [
+      'N8N',
+      'Power Automate',
+      'Power BI',
+      'Integración de APIs'
+    ]
+  },
+  {
+    title: 'DevOps & Herramientas',
+    items: [
+      'Docker',
+      'Git',
+      'GitHub',
+      'Bash',
+      'Linux',
+      'Vite',
+      'Postman',
+      'Figma'
+    ]
+  },
+  {
+    title: 'Arquitectura & Buenas prácticas',
+    items: [
+      'Arquitectura escalable',
+      'Clean Code',
+      'Manejo de estado',
+      'Asincronía',
+      'Diseño de sistemas'
+    ]
   }
-];
+]
 
 export const socialLinks: SocialLink[] = [
   { label: 'Email', url: 'mailto:daniel@example.com' },

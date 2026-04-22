@@ -1,6 +1,7 @@
 import { Component, input } from '@angular/core';
-import { Project } from '../models/portfolio.models';
-import { CtaButtonComponent } from './cta-button.component';
+import { CtaButtonComponent } from '../cta-button/cta-button.component';
+import { Project } from '../../models/portfolio.models';
+;
 
 @Component({
   selector: 'app-project-card',

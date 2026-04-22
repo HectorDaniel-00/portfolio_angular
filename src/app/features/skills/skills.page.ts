@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { SkillBadgeComponent } from '../../shared/components/skill-badge.component';
+import { SkillBadgeComponent } from '../../shared/components/skill-badge/skill-badge.component';
 import { skillGroups } from '../../shared/data/portfolio.data';
 
 @Component({
