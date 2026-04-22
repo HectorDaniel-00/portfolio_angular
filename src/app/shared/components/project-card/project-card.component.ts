@@ -1,4 +1,4 @@
-import { Component, input } from '@angular/core';
+import { ChangeDetectionStrategy, Component, input, output } from '@angular/core';
 import { CtaButtonComponent } from '../cta-button/cta-button.component';
 import { Project } from '../../models/portfolio.models';
 ;
@@ -7,8 +7,15 @@ import { Project } from '../../models/portfolio.models';
   selector: 'app-project-card',
   standalone: true,
   imports: [CtaButtonComponent],
-  templateUrl: './project-card.component.html'
+  templateUrl: './project-card.component.html',
+  changeDetection: ChangeDetectionStrategy.OnPush,
+
 })
 export class ProjectCardComponent {
-  readonly project = input.required<Project>();
+  project = input.required<Project>();
+  viewDetails = output<Project>()
+
+  onViewDetails() {
+    this.viewDetails.emit(this.project())
+  }
 }

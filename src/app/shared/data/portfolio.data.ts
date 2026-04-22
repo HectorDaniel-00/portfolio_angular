@@ -11,14 +11,22 @@ export const profile = {
 export const projects: Project[] = [
   {
     name: 'Portafolio Personal',
+    descrption: 'Panel para visualizar métricas comerciales en tiempo real.',
+    problem: 'Las ventas no tenían seguimiento claro ni visualización centralizada.',
+    solution: 'Se desarrolló un dashboard con filtros dinámicos y gráficos interactivos.',
+    impact: 'Reducción del tiempo de análisis en un 40%.',
     summary: 'Sitio para presentar experiencia, proyectos y contacto con foco en performance.',
-    stack: ['Angular', 'TypeScript', 'Tailwind'],
+    stack: ['Angular', 'TypeScript', 'Tailwind', 'Daisy UI',],
     liveUrl: '#',
     repositoryUrl: '#',
     image: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=1200&auto=format&fit=crop'
   },
   {
     name: 'Dashboard de Ventas',
+    descrption: 'Panel para visualizar métricas comerciales en tiempo real.',
+    problem: 'Las ventas no tenían seguimiento claro ni visualización centralizada.',
+    solution: 'Se desarrolló un dashboard con filtros dinámicos y gráficos interactivos.',
+    impact: 'Reducción del tiempo de análisis en un 40%.',
     summary: 'Panel con filtros, gráficos y exportación para seguimiento comercial.',
     stack: ['Angular', 'RxJS', 'Chart.js'],
     liveUrl: '#',
@@ -27,6 +35,10 @@ export const projects: Project[] = [
   },
   {
     name: 'Sistema de Reservas',
+    descrption: 'Panel para visualizar métricas comerciales en tiempo real.',
+    problem: 'Las ventas no tenían seguimiento claro ni visualización centralizada.',
+    solution: 'Se desarrolló un dashboard con filtros dinámicos y gráficos interactivos.',
+    impact: 'Reducción del tiempo de análisis en un 40%.',
     summary: 'Aplicación para gestionar reservas con validaciones y calendario interactivo.',
     stack: ['Angular', 'Node.js', 'PostgreSQL'],
     liveUrl: '#',
@@ -34,6 +46,29 @@ export const projects: Project[] = [
     image: 'https://images.unsplash.com/photo-1506784983877-45594efa4cbe?q=80&w=1200&auto=format&fit=crop'
   }
 ];
+
+export const aboutForMe = {
+  title: 'Construyo soluciones digitales con enfoque en rendimiento y experiencia',
+  text1: 'Soy desarrollador enfocado en crear aplicaciones modernas, escalables y bien estructuradas. Me gusta transformar ideas en productos reales utilizando buenas prácticas y tecnologías actuales.',
+  text2: `Actualmente trabajo con Angular, Node.js y bases de datos, y siempre estoy aprendiendo nuevas herramientas para mejorar mi flujo de trabajo y la calidad de mis proyectos.`,
+  numberProjects: 3,
+  yearsLearning: 1,
+  cards: [
+    {
+      title: '🚀 Enfoque',
+      description: 'Desarrollo aplicaciones rápidas, limpias y bien estructuradas.'
+    },
+    {
+      title: '⚙️ Tecnologías',
+      description: 'Angular moderno, Node.js, APIs REST y bases de datos relacionales.'
+    },
+    {
+      title: '🧠 Mentalidad',
+      description: 'Aprendizaje constante, enfoque en buenas prácticas y código mantenible.'
+    },
+
+  ],
+}
 
 export const skillGroups: SkillGroup[] = [
   {

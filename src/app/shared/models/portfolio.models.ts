@@ -1,5 +1,9 @@
 export interface Project {
   name: string;
+  descrption: string
+  problem: string
+  solution: string
+  impact: string
   summary: string;
   stack: string[];
   image: string
